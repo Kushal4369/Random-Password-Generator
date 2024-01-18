@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lemon', serif;
+}
+
+body{
+    background-color: rgb(73, 10, 133);
+}
+.container
+{
+    margin: 12%;
+    width: 90%;
+}
+.container h1{
+    color: white;
+}
+.container h1 span{
+    color: rgb(43, 139, 4);
+    border-bottom: 2px solid;
+}
+.container img{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    left: 30px;
+}
+
+.display{
+    width: 50%;
+    height: 100px;
+    margin: 20px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    border-radius: 12px;
+    justify-content: space-around;
+    
+}
+
+.display i{
+    cursor: pointer;
+}
+
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    background-color: inherit;
+}
+
+.container button{
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
