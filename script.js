@@ -22,3 +22,4 @@ function copyPassword(){
     passwordBox.select();
     document.execCommand("copy");
 }
+// Made By: Mr. Kushal
